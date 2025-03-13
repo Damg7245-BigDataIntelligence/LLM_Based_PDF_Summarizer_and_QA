@@ -1,0 +1,5 @@
+python-dotenv
+pydantic
+redis
+requests
+google-api-python-client

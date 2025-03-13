@@ -1,0 +1,9 @@
+-r requirements-base.txt
+fastapi
+uvicorn
+python-multipart
+pypdf
+markdown
+PyMuPDF
+boto3
+litellm

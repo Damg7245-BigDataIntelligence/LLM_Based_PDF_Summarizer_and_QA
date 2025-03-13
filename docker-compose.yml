@@ -1,0 +1,59 @@
+services:
+  redis:
+    image: redis:7.0-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server
+    restart: always
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        SERVICE_TYPE: api
+    image: pdf-summarizer-api:latest
+    command: uvicorn app.backend.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+    restart: always
+
+  summary-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        SERVICE_TYPE: summary-worker
+    image: pdf-summarizer-summary-worker:latest
+    command: python -m app.backend.summary_worker
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+    restart: always
+
+  qa-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        SERVICE_TYPE: qa-worker
+    image: pdf-summarizer-qa-worker:latest
+    command: python -m app.backend.qa_worker
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+    restart: always
+
+volumes:
+  redis-data:
