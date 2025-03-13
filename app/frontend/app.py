@@ -177,9 +177,9 @@ def format_cost_info(cost_info):
     
     return f"""
     **Cost Information:**
-    - Input Tokens: {cost_info['input_tokens']} (${cost_info['input_cost']:.6f})
-    - Output Tokens: {cost_info['output_tokens']} (${cost_info['output_cost']:.6f})
-    - Total Cost: ${cost_info['total_cost']:.6f}
+    - Input Tokens: {cost_info['input_tokens']} (${cost_info['input_cost']:.8f})
+    - Output Tokens: {cost_info['output_tokens']} (${cost_info['output_cost']:.8f})
+    - Total Cost: ${cost_info['total_cost']:.8f}
     """
 
 def select_model(model_id):

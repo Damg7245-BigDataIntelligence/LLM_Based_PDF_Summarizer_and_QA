@@ -3,3 +3,4 @@ pydantic
 redis
 requests
 google-api-python-client
+tiktoken
