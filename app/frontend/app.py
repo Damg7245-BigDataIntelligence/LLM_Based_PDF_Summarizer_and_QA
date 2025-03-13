@@ -11,9 +11,7 @@ import tempfile
 load_dotenv()
 
 # API configuration
-API_HOST = os.getenv("FASTAPI_HOST", "localhost")
-API_PORT = os.getenv("FASTAPI_PORT", "8000")
-API_URL = f"http://{API_HOST}:{API_PORT}"
+API_URL = "http://34.86.116.224:8000/"
 
 # Set page configuration
 st.set_page_config(
