@@ -1,14 +1,7 @@
-import os
-import json
 import time
 import requests
 import streamlit as st
-from pathlib import Path
-from dotenv import load_dotenv
-import tempfile
 
-# Load environment variables
-load_dotenv()
 
 # API configuration
 API_URL = "http://34.86.116.224:8000/"
