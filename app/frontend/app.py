@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # API configuration
-API_URL = "http://34.86.116.224:8000/"
+API_URL = "http://34.21.27.229:8000/"
 
 # Set page configuration
 st.set_page_config(
