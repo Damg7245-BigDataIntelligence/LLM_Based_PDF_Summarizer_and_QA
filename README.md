@@ -7,7 +7,8 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, and PyMuPDF** to pro
 ---
 
 ## **🔹 Project Resources**
-- 🌐 **App (Streamlit Cloud):** [Streamlit Link](https://your-streamlit-app-link.com)  
+- 📘 **Google Codelab:** [CodeLab](https://codelabs-preview.appspot.com/?file_id=1hPCU5x2u_ScKymQ9kOzVvBSwTSchBZSsRMf5WwqaruQ#9)
+- 🌐 **App (Streamlit Cloud):** [Streamlit Link](https://llm-based-pdf-summarizer-and-qna-app.streamlit.app/)  
 - 🎥 **YouTube Demo:** [Demo Link](https://youtu.be/your-demo-link)  
 
 ---
@@ -25,7 +26,7 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, and PyMuPDF** to pro
 ## **🔹 Architecture Diagram**
 
 <p align="center">
-  <img src="https://your-repo-link.com/architecture-diagram.png"
+  <img src="https://github.com/Damg7245-BigDataIntelligence/LLM_Based_PDF_Summarizer_and_QA/blob/main/architecture-diagram/llm_based_pdf.png"
        alt="Architecture Diagram" width="600">
 </p>
 
@@ -52,6 +53,10 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, and PyMuPDF** to pro
 
 ---
 ## **🔹 Repository Structure**
+<p align="center">
+  <img src="https://github.com/Damg7245-BigDataIntelligence/LLM_Based_PDF_Summarizer_and_QA/blob/main/architecture-diagram/input_icons/tree.png"
+        width="600">
+</p>
 
 ---
 
