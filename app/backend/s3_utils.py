@@ -51,6 +51,26 @@ def ensure_s3_structure():
         print(f"Error creating S3 structure: {e}")
         return False
 
+def upload_file_to_s3(file_content: bytes, s3_key: str, content_type: str = None) -> str:
+    """
+    Uploads any file to S3.
+    Returns URL for the uploaded file.
+    """
+    try:
+        extra_args = {'ACL': 'public-read'}
+        if content_type:
+            extra_args['ContentType'] = content_type
+            
+        s3_client.put_object(
+            Bucket=AWS_S3_BUCKET_NAME,
+            Key=s3_key,
+            Body=file_content,
+            **extra_args
+        )
+        return f"https://{AWS_S3_BUCKET_NAME}.s3.{AWS_REGION}.amazonaws.com/{s3_key}"
+    except Exception as e:
+        raise Exception(f"Failed to upload file to S3: {e}")
+    
 def upload_pdf_to_s3(file_content: bytes, original_filename: str, document_id: str) -> str:
     """
     Uploads PDF to S3.
