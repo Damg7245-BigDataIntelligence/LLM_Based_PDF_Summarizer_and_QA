@@ -26,10 +26,10 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, Docling, AWS S3, and
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/-AWS_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Azure](https://img.shields.io/badge/-Microsoft%20Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Apify](https://img.shields.io/badge/-Apify-FF9900?style=for-the-badge&logo=apify&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) 
+![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white) 
+![LiteLLM](https://img.shields.io/badge/-LiteLLM-0078D7?style=for-the-badge&logo=OpenAI&logoColor=white)
+![Docling](https://img.shields.io/badge/-Docling-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
 
 
 ---
