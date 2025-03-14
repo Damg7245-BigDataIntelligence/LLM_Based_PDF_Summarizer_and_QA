@@ -59,8 +59,8 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, and PyMuPDF** to pro
 
 | **Contributor**                    | **Contribution**                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Janvi Bharatkumar Chitroda**      | 33% – Developed the Streamlit interface, implemented PDF upload and parsing, and integrated AWS S3 for storing Markdown outputs. |
-| **Ketki Mude**                      | 33% – Built the FastAPI backend, managed Redis Streams for real-time processing, and integrated multiple LLMs via LiteLLM. |
+| **Janvi Bharatkumar Chitroda**      | 33% – Developed the Streamlit interface,  managed Redis Streams for real-time processing, and integrated AWS S3 for storing Markdown outputs. |
+| **Ketki Mude**                      | 33% – Built the FastAPI backend, implemented PDF upload and parsing, and integrated multiple LLMs via LiteLLM. |
 | **Sahil Mutha**                     | 33% – Implemented multi-LLM interaction, optimized asynchronous data handling, and ensured system deployment using Docker Compose. |
 ----------
 
