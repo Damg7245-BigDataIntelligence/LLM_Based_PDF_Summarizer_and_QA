@@ -27,7 +27,7 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, and PyMuPDF** to pro
 
 <p align="center">
   <img src="https://github.com/Damg7245-BigDataIntelligence/LLM_Based_PDF_Summarizer_and_QA/blob/main/architecture-diagram/llm_based_pdf.png"
-       alt="Architecture Diagram" width="600" height="600">
+       alt="Architecture Diagram" width="600">
 </p>
 
 ---
