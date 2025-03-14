@@ -9,7 +9,7 @@ The system integrates **FastAPI, Streamlit, LiteLLM, Redis, Docling, AWS S3, and
 ## **🔹 Project Resources**
 - 📘 **Google Codelab:** [CodeLab](https://codelabs-preview.appspot.com/?file_id=1hPCU5x2u_ScKymQ9kOzVvBSwTSchBZSsRMf5WwqaruQ#9)
 - 🌐 **App (Streamlit Cloud):** [Streamlit Link](https://llm-based-pdf-summarizer-and-qna-app.streamlit.app/)  
-- 🎥 **YouTube Demo:** [Demo Link](https://youtu.be/your-demo-link)  
+- 🎥 **YouTube Demo:** [Demo Link](https://www.youtube.com/watch?v=SuOwBDk5f1Q)  
 
 ---
 
